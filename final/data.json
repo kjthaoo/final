@@ -1,0 +1,75 @@
+{
+    "sections": [
+      {
+        "_id": 1,
+        "title": "Game Development",
+        "img_name": "Inthepresent.gif",
+        "link": "gamedev.html",
+        "description": "Here is a walk-through of my first video game creation, detailing the game's conception, the underlying narrative, and the challenges I faced.",
+        "technologies": ["Unity Engine", "Asset Store", "Visual Studio Code"],
+        "project_duration": "3 months"
+      },
+      {
+        "_id": 2,
+        "title": "Web Development",
+        "img_name": "assignportal.jpg",
+        "link": "webdev.html",
+        "description": "Embark on an journey through my web development process, beginning with the fundamentals of HTML to learning backend techniques.",
+        "technologies": ["HTML5", "CSS", "JavaScript"],
+        "project_duration": "6 months"
+      },
+      {
+        "_id": 3,
+        "title": "A Visual Journey",
+        "img_name": "visualjourney.jpg",
+        "link": "visualj.html",
+        "description": "Discover my artistic creations in this digital realm and browse my gallery of drawings.",
+        "technologies": ["Procreate", "Clip Studio Paint", "JavaScript"],
+        "project_duration": "2 months"
+      },
+      {
+        "_id": 4,
+        "title": "Animations Project",
+        "img_name": "animation.png",
+        "link": "animation.html",
+        "description": "A short process on the animation project I created for my Media Arts minor.",
+        "technologies": ["Procreate", "DaVinci Resolve", "Epidemic Sounds"],
+        "project_duration": "3 months"
+      },
+      {
+        "_id": 5,
+        "title": "Motion Graphics Project",
+        "img_name": "gifimage.png",
+        "link": "gif.html",
+        "description": "A project for my MART380 course - to create a GIF as a form of a new media.",
+        "technologies": ["Procreate", "Paint", "Photoshop"],
+        "project_duration": "1 months"
+      },
+      {
+        "_id": 6,
+        "title": "Photography Project",
+        "img_name": "photoimg.png",
+        "link": "photos.html",
+        "description": "A small gallery of photos I took in my MART210 course with the use of the Canon T3i/T5i.",
+        "technologies": ["Canon T3i", "Canon T5i", "Photoshop"],
+        "project_duration": "2 months"
+      },
+      {
+        "_id": 7,
+        "title": "Twitch Overlays",
+        "img_name": "snorlaxx.png",
+        "link": "twitch.html",
+        "description": "The process of a personal side project on creating overlays for a streaming platform.",
+        "technologies": ["Procreate", "Canva", "Photoshop"],
+        "project_duration": "4 months"
+      },
+      {
+        "_id": 8,
+        "title": "More Projects - Coming Soon!",
+        "img_name": "comingsoon.jpg",
+        "link": "index.html",
+        "description": "Future projects will be here."
+      }
+    ]
+  }
+  

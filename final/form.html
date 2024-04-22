@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Author: Kelly Thao-->
+        <title>Kelly Thao's Portfolio</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+
+    <body>
+        <header id="main-header">
+            <h3><a href="index.html">Kelly Thao</a></h3>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html">Home.</a></li>
+                    <li><a href="about.html">About.</a></li>
+                    <li><a href="#projects" id="project-link">Projects.</a></li>
+                    <li><a href="resume.html">Resume.</a></li>
+                    <li><a href="contact.html">Contact.</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="progress-container">
+            <div class="progress-bar" id="bar"></div>
+        </div>
+        <main id="main-content">
+            <div class="container">
+                <h1>Collaboration Interest Form</h1>
+                <p>Please share your collaboration ideas here!</p>
+                <form id="collab-form">
+                    <p>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" required>
+                    </p>
+                    <p>
+                        <label for="birth-date">Birth Date:</label>
+                        <input type="date" id="birth-date">
+                    </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" required>
+                    </p>
+                    <p>
+                        <label for="expertise">Expertise:</label>
+                        <textarea name="expertise" required></textarea>
+                    </p>
+                    <p>
+                        <label for="project-ideas">Project Ideas:</label>
+                        <textarea name="project-ideas" required></textarea>
+                    </p>
+                    <p>
+                        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                    </p>
+                    <p>
+                        <button type="submit">Submit Form</button>
+                    </p>
+                </form>
+            </div>            
+        </main>
+        <footer id="main-footer">
+            <h3><a href="contact.html">Feel Free To Reach Out!</a></h4>
+            <p>kjthao@email.sc.edu ✉️</p>
+        </footer>
+        <script src="form.js"></script>     
+    </body>
+</html>

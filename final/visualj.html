@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Author: Kelly Thao-->
+        <title>Kelly Thao's Web Development Project</title>
+        <link rel="stylesheet" href="visualj.css">
+    </head>
+
+    <body>
+        <header id="main-header">
+            <h3><a href="index.html">Kelly Thao</a></h3>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html">Home.</a></li>
+                    <li><a href="about.html">About.</a></li>
+                    <li><a href="index.html#projects" id="projects-link">Projects.</a></li>
+                    <li><a href="resume.html">Resume.</a></li>
+                    <li><a href="contact.html">Contact.</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="progress-container">
+            <div class="progress-bar" id="bar"></div>
+        </div>
+        <main id="main-content">
+            <div class="intro">
+                <h1>A Visual Journey</h1>
+            </div>
+            <div class="photography">
+                <h2>Photography</h2>
+                <p>Selected works from Foundations of Media Arts Production course.</p>
+                <div class="flex-container">
+                    <div class="photos">
+                        <!--some photos will be replace to better ones!-->
+                        <img src="images/photo2.JPG" id="photo2">
+                        <img src="images/photo1.jpg" id="photo1">
+                        <img src="images/photo3.JPG" id="photo3">
+                        <img src="images/photo4.JPG" id="photo4">
+                        <img src="images/photo14.jpg" id="photo14">
+                        <img src="images/photo6.JPG" id="photo6">
+                        <img src="images/photo13.JPG" id="photo13">
+                        <img src="images/photo9.JPG" id="photo9">
+                        <img src="images/photo8.jpg" id="photo8">
+                        <img src="images/photo7.JPG" id="photo7">
+                        <img src="images/photo10.png" id="photo10">
+                        <img src="images/photo11.JPG" id="photo11">
+                        <img src="images/photo12.JPG" id="photo12">
+                    </div>
+                </div>
+            </div>
+            <div class="gif">
+                <h2>Motion Graphics</h2>
+                <p>Project: A Gif About You</p>
+                <img src="images/flowerskjthao.gif" id="flowers">
+            </div>
+            <div class="art">
+                <h2>Miscellaneous Illustrations</h2>
+                <p>A few of my personal art drawings.</p>
+                <!--will be replacing these soon (to better ones)-->
+                    <img src="images/snorlax.png" id="snorlax">
+                    <img src="images/Surfcat.png" id="cat">
+                    <img src="images/OC.png" id="oc">
+            </div>
+        </main>
+        <!-- Comments Section -->
+        <button id="show-comments-btn">Show Comments</button>
+        <div id="comments" style="display: none;">            
+            <h2>Comments</h2>
+            <ul id="comment-list"></ul>
+            <form id="comment-form">
+                <textarea id="comment-input" placeholder="Add a comment"></textarea>
+                <button type="submit">Post Comment</button>
+            </form>
+        </div> 
+        <footer id="main-footer">
+            <h3><a href="contact.html">Feel Free To Reach Out!</a></h4>
+            <p>kjthao@email.sc.edu ✉️</p>
+        </footer>
+        <script src="visualj.js"></script>     
+    </body>
+</html>

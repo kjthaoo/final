@@ -1,0 +1,410 @@
+/* Structure */
+body {
+    margin: 0; /* this removes the white spaces around the website */
+    overflow-x:hidden;
+    padding-top: 5px;
+}
+
+/* REMINDER TO CREATE A GRADIENT BACKGROUND WHITE TO BLACK */
+
+#main-header {
+    position: fixed;
+    background-color: white;
+    padding: 1px;
+    width: 100%;
+    height: 100px;
+}
+
+.progress-container {
+    position: fixed;
+    width: 100%;
+    height: 7px;
+    background: lightgrey;
+    z-index: 999;
+    top: 0;
+}
+
+.progress-bar {
+    height: 7px;
+    background: linear-gradient(30deg,#1ca2d3, #ff8400);
+    width: 0%;
+}
+
+#main-content {
+    background-color: white;
+    padding: 1px;
+    width: 100%;
+    height: 5500px;
+}
+
+.intro {
+    height: 650px;
+}
+
+.photography {
+    height: 3000px;
+}
+
+.gif {
+    height: 900px;
+    background-color: black;
+}
+
+#main-footer {
+    background-color: white;
+    width: auto;
+    height: 100px;
+}
+/* Navigation */
+
+#main-nav {
+    padding-bottom: 10px;
+}
+
+#main-nav ul {
+    padding-left: 0;
+    text-align: center;
+    font-size: 9px;
+    float: right;
+    width: 40%;
+    white-space: nowrap;
+}
+
+#main-nav li {
+    list-style-type: none;
+    padding: 5px;
+    background-color: white;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color:black;
+}
+
+/* Typography */
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+#main-header h3 {
+    font-size: 18px;
+    margin-left: 100px;
+    padding-top: 15px;
+    width: 50px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#main-header a {
+    text-decoration: none;
+    color: black;
+}
+
+#main-header a:hover {
+    color: #1ca2d3;
+}
+
+#main-content h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 280px;
+}
+
+#main-content h2 {
+    font-size: 20px;
+    margin-left: 100px;
+    padding-top: 50px;
+}
+
+#main-content p {
+    font-size: 15px;
+    margin-left: 100px;
+}
+
+.gif h2,
+.gif p{
+    color: white;
+}
+#main-nav {
+    margin-bottom: 0px;
+    margin-right: 100px;
+}
+
+#main-nav a {
+    font-size: 15px;    
+}
+
+#main-nav a:hover {
+    color: #1ca2d3;
+}
+
+/* Comments section styles */
+
+#comments {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  #comment-input {
+    width: calc(90% - 20px);
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  #comment-input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  #comment-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #comment-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  #comment-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .comment {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .comment p {
+    margin: 0;
+  }
+  
+  .delete-btn {
+    color: red;
+    cursor: pointer;
+    float: right;
+  }
+
+  #show-comments-btn {
+    margin: 0 auto;
+    display: block;
+  }
+
+#main-footer a {
+    text-decoration: none;
+    color: black;
+}
+
+#main-footer h3 {
+    padding-top: 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+#main-footer p {
+    color: black;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* photos */
+#photo1{
+    height: 450px;
+    width: 510px;
+    margin-right: 100px;
+}
+
+#photo2 {
+    height: 450px;
+    width: 800px;
+    margin-left: 100px;
+}
+
+#photo3 {
+    height: 450px;
+    width: 600px;
+    margin-left: 100px;
+}
+
+#photo4 {
+    height: 450px;
+    width: 710px;
+    margin-right: 100px;
+}
+#photo6 {
+    height: 560px;
+    width: 470px;
+}
+#photo7 {
+    height: 450px;
+    width: 635px;
+    margin-right: 100px;
+}
+#photo8 {
+    height: 450px;
+    width: 350px;
+}
+#photo9 {
+    height: 450px;
+    width: 320px;
+    margin-left: 100px;
+}
+#photo10 {
+    height: 650px;
+    width: 550px;
+    margin-left: 100px;
+}
+#photo11 {
+    height: 420px;
+    width: 650px;
+    margin-right: 100px;
+}
+#photo12 {
+    height: 250px;
+    width: 650px;
+    margin-left: 100px;
+}
+#photo13 {
+    height: 560px;
+    width: 415px;
+    margin-right: 100px;
+}
+#photo14 {
+    height: 560px;
+    width: 420px;
+    margin-left: 100px;
+}
+
+/* motion graphics */
+#flowers {
+    padding-top: 60px;
+    height: 550px;
+    width: 1100px;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+#snorlax {
+    padding-top: 20px;
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: solid lightgrey 2px;
+}
+
+#cat {
+    padding-top: 20px;
+    width:400px;
+    height:400px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: solid lightgrey 2px;
+}
+
+#oc {
+    padding-top: 20px;
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: solid lightgrey 2px;
+}
+
+/* Larger Resolutions */
+@media(min-width:600px) {
+    .flex-container {
+        display: flex;
+    }
+
+    #main-header {
+        display: flex;
+    }
+    
+    .progress-container {
+        display: flex;
+    }
+
+    #main-nav {
+        display: flex;
+        margin-left: auto; /* or put 900px */
+    }
+
+    #main-nav ul {
+        display: flex;
+        align-items: flex-end; 
+        margin: 5px;
+        margin-right: 50px;
+    }
+
+    #main-nav li {
+        flex: .5;
+        margin: 10px;
+    }
+
+    #photos {
+        flex-wrap: wrap;
+    }
+
+    #main-footer a {
+        display: flex;
+        align-items: center; /* reminder that this aligns the <p> in the footer vertically */
+        justify-content: center; /* and this one is horizontally! */
+    }
+
+    #show-comments-btn {
+        display: block;
+      }
+}
+
+
+/* Smaller Resolutions */
+@media(max-width:599px) {
+    .flex-container {
+        display: flex;
+    }
+
+    #main-header {
+        display: flex;
+    }
+    
+    .progress-container {
+        display: flex;
+    }
+
+    #main-nav {
+        display: flex;
+        margin-left: auto; /* or put 900px */
+    }
+
+    #main-nav ul {
+        display: flex;
+        align-items: flex-end; 
+        margin: 5px;
+        margin-right: 50px;
+    }
+
+    #main-nav li {
+        flex: .5;
+        margin: 10px;
+    }
+
+    #photos {
+        flex-wrap: wrap;
+    }
+}

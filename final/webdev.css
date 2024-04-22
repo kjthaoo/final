@@ -1,0 +1,266 @@
+/* Structure */
+body {
+    margin: 0; /* this removes the white spaces around the website */
+    overflow-x:hidden;
+    padding-top: 5px;
+}
+
+#main-header {
+    position: fixed;
+    background-color: white;
+    padding: 1px;
+    width: 100%;
+    height: 100px;
+}
+
+.progress-container {
+    position: fixed;
+    width: 100%;
+    height: 7px;
+    background: lightgrey;
+    z-index: 999;
+    top: 0;
+}
+
+.progress-bar {
+    height: 7px;
+    background: linear-gradient(30deg,#1ca2d3, #ff8400);
+    width: 0%;
+}
+
+#main-content {
+    background-color: white;
+    padding: 1px;
+    width: 100%;
+    height: 850px;
+    
+}
+
+#main-footer {
+    background-color: white;
+    width: auto;
+    height: 100px;
+}
+/* Navigation */
+
+#main-nav {
+    padding-bottom: 10px;
+}
+
+#main-nav ul {
+    padding-left: 0;
+    text-align: center;
+    font-size: 9px;
+    float: right;
+    width: 40%;
+    white-space: nowrap;
+}
+
+#main-nav li {
+    list-style-type: none;
+    padding: 5px;
+    background-color: white;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color:black;
+}
+
+/* Typography */
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+#main-header h3 {
+    font-size: 18px;
+    margin-left: 100px;
+    padding-top: 15px;
+    width: 50px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#main-header a {
+    text-decoration: none;
+    color: black;
+}
+
+#main-header a:hover {
+    color: #1ca2d3;
+}
+
+#main-content h1 {
+    font-size: 25px;
+    margin-left: 200px;
+    padding-top: 80px; /* orignal: 140px */
+    color: black;
+}
+
+#main-content h2 {
+    font-size: 13px;
+    margin-left: 200px;
+    padding-top: 0.5px;
+    font-style: italic;
+}
+
+#main-content h3 {
+    font-size: 20px;
+    margin-left: 200px;
+    padding-top: 10px;
+}
+
+#main-content p {
+    font-size: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    line-height: 20px;
+}
+
+.intro,
+.background,
+.challenges,
+.feedback {
+    padding-bottom: 20px;
+}
+
+#main-nav {
+    margin-bottom: 0px;
+    margin-right: 100px;
+}
+
+#main-nav a {
+    font-size: 15px;    
+}
+
+#main-nav a:hover {
+    color: #1ca2d3;
+}
+
+#main-footer a {
+    text-decoration: none;
+    color: black;
+}
+
+#main-footer h3 {
+    padding-top: 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+#main-footer p {
+    color: black;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* the parallax effect */
+.parallax1 {
+    background:url("images/mainportal.jpg");
+    min-height: 650px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Larger Resolutions */
+@media(min-width:600px) {
+    .flex-container {
+        display: flex;
+    }
+
+    #main-header {
+        display: flex;
+    }
+
+    .progress-container {
+        display: flex;
+    }
+
+    #main-nav {
+        display: flex;
+        margin-left: auto; /* or put 900px */
+    }
+
+    #main-nav ul {
+        display: flex;
+        align-items: flex-end; 
+        margin: 5px;
+        margin-right: 50px;
+    }
+
+    #main-nav li {
+        flex: .5;
+        margin: 10px;
+    }
+}
+
+
+/* Smaller Resolutions */
+@media(max-width:599px) {
+    .flex-container {
+        display: flex;
+    }
+
+    #main-header {
+        display: flex;
+    }
+
+    .progress-container {
+        display: flex;
+    }
+
+    #main-nav {
+        display: flex;
+        margin-left: auto; /* or put 900px */
+    }
+
+    #main-nav ul {
+        display: flex;
+        align-items: flex-end; 
+        margin: 5px;
+        margin-right: 50px;
+    }
+
+    #main-nav li {
+        flex: .5;
+        margin: 10px;
+    }
+
+    #main-content {
+        height: 1500px;
+    }
+
+    #main-content h1 {
+        padding-top: 0px;
+        margin-left: 20px;
+    }
+
+    #main-content h2 {
+        font-size: 13px;
+        margin-left: 20px;
+        padding-top: 0.5px;
+        font-style: italic;
+    }
+
+    #main-content h3 {
+        font-size: 20px;
+        margin-left: 20px;
+        padding-top: 40px;
+    }
+
+    #main-content p {
+        display:flex;
+        margin-left: 20px;
+        width: 460px;
+        padding-top: 1px;
+        margin-bottom: -5px; /* space between paragraphs */
+        line-height: 25px; /* within paragraph */
+    }
+}

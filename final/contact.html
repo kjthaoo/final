@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Author: Kelly Thao-->
+        <title>Kelly Thao's Portfolio</title>
+        <link rel="stylesheet" href="contact.css">
+    </head>
+
+    <body>
+        <header id="main-header">
+            <h3><a href="index.html">Kelly Thao</a></h3>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html">Home.</a></li>
+                    <li><a href="about.html">About.</a></li>
+                    <li><a href="#projects" id="project-link">Projects.</a></li>
+                    <li><a href="resume.html">Resume.</a></li>
+                    <li><a href="contact.html">Contact.</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="progress-container">
+            <div class="progress-bar" id="bar"></div>
+        </div>
+        <main id="main-content">
+            <div class="container">
+                <h1>Contact Me</h1>
+                <form
+                    action="https://api.web3forms.com/submit"
+                    method="POST">
+
+                    <input type="hidden" name="access_key" value="29695a76-4f52-44c1-a12a-cb2b49ee8f6f">
+                    <p>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" required>
+                    </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" required>
+                    </p>
+                    <p>
+                        <label for="Message">Message:</label>
+                        <textarea name="message" required></textarea>
+                    </p>
+                    <p>
+                        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                    </p>
+                    <p>
+                        <button type="submit">Submit</button>
+                    </p>
+                </form>
+            </div>
+            <div class="iframemap">
+                <iframe
+                id="map"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d18180.05173611386!2d-81.03945095688238!3d33.99301890097018!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8bb282cb2a61b%3A0x78bd73542178f54e!2sUniversity%20of%20South%20Carolina!5e0!3m2!1sen!2sus!4v1710880352721!5m2!1sen!2sus" 
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">            
+                </iframe>
+            </div>
+        </main>
+        <div class="end">
+            <div class="dataform">
+                <h2><span class="collab">Want to collab?</span></h2>
+                <h3>Click here for an Interest Form!</h3>
+                <p><a href="form.html">Collaboration Interest Form 2024</a></p>
+            </div>
+        </div>
+        <footer id="main-footer">
+            <h3><a href="contact.html">Feel Free To Reach Out!</a></h4>
+            <p>kjthao@email.sc.edu ✉️</p>
+        </footer>
+        <script src="contact.js"></script>     
+    </body>
+</html>
+
